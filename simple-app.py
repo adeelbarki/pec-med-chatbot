@@ -94,12 +94,20 @@ def ask_question(query, chain, llm):
     return final_response
 
 # Setup - Streamlit secrets
-OPENAI_API_KEY = st.secrets["api_keys"]["OPENAI_API_KEY"]
-VOYAGE_AI_API_KEY = st.secrets["api_keys"]["VOYAGE_AI_API_KEY"]
-PINECONE_API_KEY = st.secrets["api_keys"]["PINECONE_API_KEY"]
-aws_access_key_id = st.secrets["aws"]["aws_access_key_id"]
-aws_secret_access_key = st.secrets["aws"]["aws_secret_access_key"]
-aws_region = st.secrets["aws"]["aws_region"]
+# OPENAI_API_KEY = st.secrets["api_keys"]["OPENAI_API_KEY"]
+# VOYAGE_AI_API_KEY = st.secrets["api_keys"]["VOYAGE_AI_API_KEY"]
+# PINECONE_API_KEY = st.secrets["api_keys"]["PINECONE_API_KEY"]
+# aws_access_key_id = st.secrets["aws"]["aws_access_key_id"]
+# aws_secret_access_key = st.secrets["aws"]["aws_secret_access_key"]
+# aws_region = st.secrets["aws"]["aws_region"]
+
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+VOYAGE_AI_API_KEY = st.secrets["VOYAGE_AI_API_KEY"]
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
+aws_access_key_id = st.secrets["aws_access_key_id"]
+aws_secret_access_key = st.secrets["aws_secret_access_key"]
+aws_region = st.secrets["aws_region"]
+vo_index_name = st.secrets["vo_index_name"]
 
 # Langchain stuff
 llm = ChatOpenAI(model="gpt-4o", openai_api_key=OPENAI_API_KEY)
@@ -127,7 +135,7 @@ s3_client = boto3.client(
 # PINECONE
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 pc = Pinecone(api_key=PINECONE_API_KEY)
-index_name = "drugbank"
+index_name = vo_index_name
 openai.api_key = OPENAI_API_KEY
 
 # Set up LangChain objects
