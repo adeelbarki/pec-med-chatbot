@@ -29,46 +29,42 @@ might be included in future work.
 3. <strong>Authentication and Authorization Management:</strong> The project will not focus on
 developing user authentication and authorization mechanisms.
 4. <strong>Encryption:</strong> This solution will not encrypt data for data security.
-5. <strong>Scalability Solutions:<strong> It will not focus on scalability solutions for handling concurrent
+5. <strong>Scalability Solutions:</strong> It will not focus on scalability solutions for handling concurrent
 users.
 6. <strong>Logging and Monitoring:</strong> The project will not include logging and monitoring
 capabilities.
 
 ## Estimated Milestones & Timeline
-Phase 1: Planning and Initial Setup (Week 1)
-● Finalise project requirements and scope.
-● Set up project management tools
-● Define architecture and data flow diagrams.
-● Select and set up initial development environments and tools (AWS services,
-Pinecone Vector DB, etc.).
-Phase 2: Backend Development (Week 2)
-● Set up AWS S3 buckets for storing structured and unstructured data.
-● Integrate the Pinecone Vector Database with backend services.
-● Implement data preprocessing, de-identification and anonymization
-workflows.
-Phase 3: Data Integration and Embedding (Week 3-4)
-● Ingest general and patient-specific data into the system.
-● Implement chunking, tokenization, and embedding processes.
-● Populate the Pinecone Vector Database with embedded data.
-● Ensure data integrity and proper indexing for efficient retrieval.
-Phase 4: Large Language Model (LLM) Integration (Week 5-6)
-● Develop Lambda functions for query embedding and data preprocessing.
-● Integrate LLM with the backend to process and generate responses.
-● Conduct initial testing of query processing and response generation.
-● Optimise LLM performance and response accuracy.
-● Implement feedback loops for continuous model improvement.
-Phase 5: Frontend Development (Week 7)
-● Develop the web application interface using Streamlit or other frontend
-technologies.
-● Integrate the frontend with backend services for data query and response
-handling.
-● Conduct initial frontend testing and user interface improvements.
-Phase 6: Testing & Launch (Week 8)
-● Conduct user acceptance testing with select group of users
-● Finalise system deployment plans and conduct final testing
-● Deploy system to a production environment
-Phase 7: Presentation (Week 9)
-● Present solution with presentation and final design document
+<strong>Phase 1: Planning and Initial Setup (Week 1)</strong>
+- Finalise project requirements and scope.
+- Set up project management tools
+- Define architecture and data flow diagrams.
+- Select and set up initial development environments and tools (AWS services, Pinecone Vector DB, etc.).
+<strong>Phase 2: Backend Development (Week 2)</strong>
+- Set up AWS S3 buckets for storing structured and unstructured data.
+- Integrate the Pinecone Vector Database with backend services.
+- Implement data preprocessing, de-identification and anonymization workflows.
+<strong>Phase 3: Data Integration and Embedding (Week 3-4)</strong>
+- Ingest general and patient-specific data into the system.
+- Implement chunking, tokenization, and embedding processes.
+- Populate the Pinecone Vector Database with embedded data.
+- Ensure data integrity and proper indexing for efficient retrieval.
+<strong>Phase 4: Large Language Model (LLM) Integration (Week 5-6)</strong>
+- Develop Lambda functions for query embedding and data preprocessing.
+- Integrate LLM with the backend to process and generate responses.
+- Conduct initial testing of query processing and response generation.
+- Optimise LLM performance and response accuracy.
+- Implement feedback loops for continuous model improvement.
+<strong>Phase 5: Frontend Development (Week 7)</strong>
+- Develop the web application interface using Streamlit or other frontendtechnologies.
+- Integrate the frontend with backend services for data query and responsehandling.
+- Conduct initial frontend testing and user interface improvements.
+<strong>Phase 6: Testing & Launch (Week 8)</strong>
+- Conduct user acceptance testing with select group of users
+- Finalise system deployment plans and conduct final testing
+- Deploy system to a production environment
+<strong>Phase 7: Presentation (Week 9)</strong>
+- Present solution with presentation and final design document
 
 ## Technical Details
 
