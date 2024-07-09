@@ -148,6 +148,7 @@ latency, data privacy, model accuracy, bias, misinterpretation, project scope, a
 management are crucial for its successful deployment and operation.
 
 ## Future Work
+![alt future work Diagram](https://github.com/adeelbarki/pec-med-chatbot/blob/main/images/future-work.png)
 1. Integration with Electronic Health Records (EHR):
 ● Develop APIs to seamlessly integrate with various EHR systems.
 ● Ensure secure and efficient data exchange protocols between the hospital
