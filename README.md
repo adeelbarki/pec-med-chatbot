@@ -21,17 +21,17 @@ HIPAA and GDPR.
 seamless navigation, real-time query responses.
 
 ## Non-Goals
-1. Full Multilingual Support: Initially, the system may not support multiple languages and
+1. <strong>Full Multilingual Support:</strong> Initially, the system may not support multiple languages and
 will primarily operate in English, with potential multilingual support considered for future
 enhancements.
-2. Audio Support: Initially the system may not support audio conversion to text. But it
+2. <strong>Audio Support:</strong> Initially the system may not support audio conversion to text. But it
 might be included in future work.
-3. Authentication and Authorization Management: The project will not focus on
+3. <strong>Authentication and Authorization Management:</strong> The project will not focus on
 developing user authentication and authorization mechanisms.
-4. Encryption: This solution will not encrypt data for data security.
-5. Scalability Solutions: It will not focus on scalability solutions for handling concurrent
+4. <strong>Encryption:</strong> This solution will not encrypt data for data security.
+5. <strong>Scalability Solutions:<strong> It will not focus on scalability solutions for handling concurrent
 users.
-6. Logging and Monitoring: The project will not include logging and monitoring
+6. <strong>Logging and Monitoring:</strong> The project will not include logging and monitoring
 capabilities.
 
 ## Estimated Milestones & Timeline
