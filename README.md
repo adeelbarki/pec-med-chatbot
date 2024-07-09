@@ -75,7 +75,7 @@ capabilities.
 ## Technical Details
 
 ### Data Flow Diagram
-![alt text](https://github.com/adeelbarki/pec-med-chatbot/blob/main/images/flow-diagram.png)
+![alt Data Flow Diagram](https://github.com/adeelbarki/pec-med-chatbot/blob/main/images/flow-diagram.png)
 
 #### Real time Data Flow
 1. User Interaction (Step 1 & 6): The user interacts with the web application interface,
@@ -101,15 +101,15 @@ Pinecone Vector Database using another Lambda function.
 5. Database Population (Step D): The Pinecone Vector Database is populated with these
 embeddings, making the data ready for retrieval during user queries.
 #### Tools & Technologies
-● Frontend: Streamlit or similar frameworks for developing the web application interface.
-● Lambda Functions: AWS Lambda for serverless computing to handle query
+- Frontend: Streamlit or similar frameworks for developing the web application interface.
+- Lambda Functions: AWS Lambda for serverless computing to handle query
 embedding, data preprocessing, and data injection.
-● Pinecone Vector Database: For storing and retrieving vector embeddings efficiently.
-● Large Language Model (LLM): For generating contextually relevant responses based
+- Pinecone Vector Database: For storing and retrieving vector embeddings efficiently.
+- Large Language Model (LLM): For generating contextually relevant responses based
 on the retrieved data. Chatgpt and langchain are used for interacting with human-like
 text and response for our patient queries.
-● AWS S3 Buckets: For storing structured and unstructured data.
-● Voyage API: For embedding, enhancing semantic search and RAG for AI applications
+- AWS S3 Buckets: For storing structured and unstructured data.
+- Voyage API: For embedding, enhancing semantic search and RAG for AI applications
 #### Cost Management
 - AWS Lambda: $0.20 per 1 million requests
 - S3 storage: $0.023 per GB for standard storage
@@ -150,58 +150,58 @@ management are crucial for its successful deployment and operation.
 ## Future Work
 ![alt future work Diagram](https://github.com/adeelbarki/pec-med-chatbot/blob/main/images/future-work.png)
 1. Integration with Electronic Health Records (EHR):
-● Develop APIs to seamlessly integrate with various EHR systems.
-● Ensure secure and efficient data exchange protocols between the hospital
+- Develop APIs to seamlessly integrate with various EHR systems.
+- Ensure secure and efficient data exchange protocols between the hospital
 network and the chatbot system.
 2. Enhanced Data Security and Privacy:
-● Implement advanced encryption methods for data at rest and in transit.
-● Regularly update anonymization and de-identification techniques to comply
+- Implement advanced encryption methods for data at rest and in transit.
+- Regularly update anonymization and de-identification techniques to comply
 with evolving data privacy regulations.
 3. User Authentication and Authorization Improvements:
-● Incorporate multi-factor authentication (MFA) for enhanced security.
+- Incorporate multi-factor authentication (MFA) for enhanced security.
 4. Scalability and Performance Optimization:
-● Use serverless architecture and auto-scaling features to handle increased
+- Use serverless architecture and auto-scaling features to handle increased
 user load efficiently.
 5. Advanced Natural Language Processing (NLP) Techniques:
-● Integrate more sophisticated NLP models to better understand and interpret
+- Integrate more sophisticated NLP models to better understand and interpret
 user queries.
 6. Personalization and Customization:
-● Develop mechanisms to personalise responses based on user history and
+- Develop mechanisms to personalise responses based on user history and
 preferences.
-● Allow users to customise their interface and the type of information they
+- Allow users to customise their interface and the type of information they
 receive.
 7. Comprehensive Logging and Monitoring:
-● Implement detailed logging of user interactions for better troubleshooting and
+- Implement detailed logging of user interactions for better troubleshooting and
 system improvement.
-● Set up monitoring tools to detect and respond to system anomalies in
+- Set up monitoring tools to detect and respond to system anomalies in
 real-time.
 8. User Feedback and Continuous Improvement:
-● Create a feedback loop where users can rate responses and provide
+- Create a feedback loop where users can rate responses and provide
 suggestions.
-● Use feedback to iteratively improve the chatbot's performance and accuracy.
+- Use feedback to iteratively improve the chatbot's performance and accuracy.
 9. Expansion of Data Sources:
-● Incorporate additional data sources such as medical journals, clinical trials,
+- Incorporate additional data sources such as medical journals, clinical trials,
 and patient forums.
-● Ensure the data is regularly updated and validated for accuracy.
+- Ensure the data is regularly updated and validated for accuracy.
 10. Multi-language Support:
-● Implement support for multiple languages to cater to a diverse user base.
-● Ensure translations maintain the accuracy and context of medical information.
+- Implement support for multiple languages to cater to a diverse user base.
+- Ensure translations maintain the accuracy and context of medical information.
 11. Compliance and Certification:
-● Regularly audit the system for compliance with healthcare regulations (e.g.,
+- Regularly audit the system for compliance with healthcare regulations (e.g.,
 HIPAA, GDPR, PIPEDA).
-● Seek certifications from relevant health information authorities to build trust
+- Seek certifications from relevant health information authorities to build trust
 with users.
 12. User Interface Enhancements:
-● Improve the user interface for better accessibility and ease of use.
-● Include features like voice recognition and response for hands-free
+- Improve the user interface for better accessibility and ease of use.
+- Include features like voice recognition and response for hands-free
 interaction.
 13. AI and Machine Learning Integration:
-● Continuously train the models with new data to improve their predictive
+- Continuously train the models with new data to improve their predictive
 accuracy.
 14. Interoperability with Other Health Applications:
-● Ensure the system can interoperate with other health and wellness
+- Ensure the system can interoperate with other health and wellness
 applications.
-● Develop plugins or modules that can be integrated into other platforms
+- Develop plugins or modules that can be integrated into other platforms
 
 ### How to run it on your own machine
 
