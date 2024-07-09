@@ -75,6 +75,7 @@ capabilities.
 ## Technical Details
 
 ### Data Flow Diagram
+![alt text](https://github.com/adeelbarki/pec-med-chatbot/blob/main/images/flow-diagram.png)
 
 #### Real time Data Flow
 1. User Interaction (Step 1 & 6): The user interacts with the web application interface,
