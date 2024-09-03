@@ -1,5 +1,5 @@
 # Patient Education Chatbot - Project Document RAG Powered Chatbot
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pec-med-chatbot-yb29cngag6itjnmcr3vlhp.streamlit.app/)
+
 
 ## Background
 The Patient Education System is designed to leverage a Retrieval-Augmented Generation
